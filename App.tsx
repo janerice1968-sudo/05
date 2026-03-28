@@ -47,9 +47,9 @@ const App: React.FC = () => {
           margin: 0;
           font-family: Arial, Helvetica, sans-serif;
           background:
-            radial-gradient(circle at top left, rgba(88, 28, 135, 0.35), transparent 30%),
-            radial-gradient(circle at bottom right, rgba(79, 70, 229, 0.35), transparent 30%),
-            linear-gradient(135deg, #0b1020, #111827 45%, #1e1b4b 100%);
+            radial-gradient(circle at top left, rgba(225, 29, 72, 0.35), transparent 30%),
+            radial-gradient(circle at bottom right, rgba(251, 191, 36, 0.25), transparent 30%),
+            linear-gradient(135deg, #1a0a0a, #2d0a0a 45%, #450a0a 100%);
           color: #ffffff;
         }
 
@@ -164,7 +164,7 @@ const App: React.FC = () => {
           width: 40px;
           height: 40px;
           border: 3px solid rgba(255, 255, 255, 0.1);
-          border-top-color: #6366f1;
+          border-top-color: #e11d48;
           border-radius: 50%;
           margin: 0 auto 20px;
           animation: spin 1s linear infinite;
@@ -198,14 +198,14 @@ const App: React.FC = () => {
         }
 
         .icon {
-          color: #22c55e;
+          color: #fbbf24;
           font-weight: bold;
         }
 
         .btn {
           display: block;
           width: 100%;
-          background: #6366f1;
+          background: #e11d48;
           color: white;
           text-decoration: none;
           padding: 20px;
@@ -213,14 +213,14 @@ const App: React.FC = () => {
           font-size: 18px;
           font-weight: bold;
           transition: all 0.3s;
-          box-shadow: 0 10px 20px -5px rgba(99, 102, 241, 0.4);
+          box-shadow: 0 10px 20px -5px rgba(225, 29, 72, 0.4);
           cursor: pointer;
         }
 
         .btn:hover {
-          background: #4f46e5;
+          background: #be123c;
           transform: translateY(-2px);
-          box-shadow: 0 15px 25px -5px rgba(99, 102, 241, 0.5);
+          box-shadow: 0 15px 25px -5px rgba(225, 29, 72, 0.5);
         }
 
         .terms {
@@ -240,7 +240,7 @@ const App: React.FC = () => {
         <div className="card">
           <div className="left">
             <div className="img-box">
-              <img src="https://picsum.photos/seed/vibrant/800/1200" alt="Member" referrerPolicy="no-referrer" />
+              <img src="https://picsum.photos/seed/passion/800/1200" alt="Member" referrerPolicy="no-referrer" />
               <div className="overlay"></div>
               <div className="badge">LIVE NOW</div>
             </div>
@@ -251,7 +251,7 @@ const App: React.FC = () => {
           </div>
           <div className="right">
             <div className="header">
-              <h1>lovenightroom</h1>
+              <h1>passion</h1>
               <p>Private Member Access</p>
             </div>
 
