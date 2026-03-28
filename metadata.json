@@ -1,0 +1,8 @@
+{
+  "name": "lovenightroom",
+  "description": "A digital sanctuary crafted for those seeking ultimate sensory experiences, providing high-definition private interactions and artistic live streams at lovenightroom.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
